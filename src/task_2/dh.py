@@ -28,7 +28,7 @@ def main():
 
     # Вычисление общего секрета для Alice и Bob
     alice_secret = compute_shared_secret(alice_public, alice_private, p)
-    bob_secret = compute_shared_secret(bob_public, bob_private, p)
+    bob_secret = compute_shared_secret(alice_publibob_public, bob_private, p)
 
     print(f"Alice: Общий секрет = {alice_secret}")
     print(f"Bob: Общий секрет = {bob_secret}")
