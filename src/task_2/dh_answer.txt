@@ -1,7 +1,7 @@
 РЕШЕНИЕ ЗАДАНИЯ 2: Алгоритм Диффи–Хеллмана
 
-25;alice_secret = compute_shared_secret(bob_public, alice_private, p)
-26;bob_secret = compute_shared_secret(alice_public, bob_private, p)
+30;alice_secret = compute_shared_secret(bob_public, alice_private, p)
+31;bob_secret = compute_shared_secret(alice_public, bob_private, p)
 
 МЫ ПОЛУЧИЛИ ОТВЕТ СЛЕДУЮЩИМ ОБРАЗОМ:
 
@@ -42,7 +42,7 @@
 
 Давайте разберем КАЖДУЮ строку:
 
-СТРОКА 25 (БЫЛО):
+СТРОКА 30 (БЫЛО):
     alice_secret = compute_shared_secret(alice_public, alice_private, p)
 
 Что здесь написано:
@@ -56,7 +56,7 @@
 - Правильно: secret = (g^b)^a = g^(a*b)
 - Неправильно: secret = (g^a)^a = g^(a^2)  ← совсем другое число
 
-СТРОКА 26 (БЫЛО):
+СТРОКА 31 (БЫЛО):
     bob_secret = compute_shared_secret(bob_public, bob_private, p)
 
 Что здесь написано:
@@ -80,9 +80,9 @@
 - Алиса должна взять публичный ключ БОБА и свой приватный ключ
 - Боб должен взять публичный ключ АЛИСЫ и свой приватный ключ
 
-СТРОКА 25 (ИСПРАВЛЕНО):
+СТРОКА 30 (ИСПРАВЛЕНО):
     alice_secret = compute_shared_secret(bob_public, alice_private, p)
 
-СТРОКА 26 (ИСПРАВЛЕНО):
+СТРОКА 31 (ИСПРАВЛЕНО):
     bob_secret = compute_shared_secret(alice_public, bob_private, p)
 
