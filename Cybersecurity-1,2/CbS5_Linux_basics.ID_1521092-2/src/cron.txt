@@ -1,0 +1,1 @@
+0 0 * * * /usr/sbin/logwatch --detail High --mailto mus-lola.tim1408@yandex.ru --range yesterday --service All
