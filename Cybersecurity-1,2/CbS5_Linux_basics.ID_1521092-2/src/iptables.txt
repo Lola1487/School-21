@@ -1,5 +1,0 @@
-Chain INPUT (policy ACCEPT)
-target     prot opt source               destination         
-LIBVIRT_INP  all  --  0.0.0.0/0            0.0.0.0/0           
-DROP       tcp  -- !127.0.0.1            0.0.0.0/0            tcp dpt:80
-DROP       tcp  -- !127.0.0.1            0.0.0.0/0            tcp dpt:80

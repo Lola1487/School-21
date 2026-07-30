@@ -1,3 +1,0 @@
-PasswordComplexity = 1
-MaximumPasswordAge = 30
-MinimumPasswordLength = 8

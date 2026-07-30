@@ -1,8 +1,0 @@
-
-Name            Enabled Direction Action Profile
-----            ------- --------- ------ -------
-Block_http_conn    True   Inbound  Block Any
-Allow_rdp_conn     True   Inbound  Allow Any
-Block_ftp_conn     True  Outbound  Block Any
-Block_ping_conn    True   Inbound  Block Any
-
